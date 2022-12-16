@@ -1,0 +1,234 @@
+    <!DOCTYPE html>
+    <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Lebreria</title>
+                <!--Google Fonts-->
+                <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Source+Code+Pro:wght@200;500;600;700;800;900&display=swap" rel="stylesheet">
+                <!--CSS Files-->
+                <link rel="stylesheet" href="css_files/main.css">
+            </head>
+            <body>
+                <!--Navigation Bar-->
+                <div class="navbar">
+                    <div class="container">
+                    <div class="logo-container">
+                        <img class="logo-image" src="images/logo-icon.svg" alt="Libreria logo">
+                        <a class="nav-name" href="#id-hero-section">Libreria</a>
+                    </div>
+                    <img class="menu-open" id="mobile-menu-open" src="images/icons8-menu.svg" alt="Show menu">
+                    <nav>
+                        <img class="menu-exit" id="mobile-menu-exit" src="images/exit.svg" alt="Exit menu">
+                        <ul class="ul-nav-option">
+                            <li class="li-nav-option"><a class="a-nav-option" href="#id-hero-section">Home</a></li>
+                            <li class="li-nav-option"><select class="select-current" name="categories" style="border: none;">
+                                <option class="li-option-categories" value="" disabled selected hidden>Categories</option>
+                                <option class="li-option-categories" value="fiction">Fiction</option>
+                                <option class="li-option-categories" value="nonfiction">Non-Fiction</option>
+                            </select></li>
+                            <li class="li-nav-option"><a class="a-nav-option" href="#id-author-section">Author</a></li>
+                            <li class="li-nav-option"><a class="a-nav-option" href="#id-store-section">Shop</a></li>
+                            <li class="li-nav-option"><a class="a-nav-option" href="#id-review-section">Reviews</a></li>
+                            <li class="li-nav-option"><a class="a-nav-option" href="#id-hero-section" id="login-button">Login</a></li>
+                        </ul>
+                    </nav>
+                    </div>
+                </div>
+
+                <!--Home Page Section-->
+                <section class="hero" id="id-hero-section">
+                    <div class="container" id="id-hero-container">
+                        <!--Left Content-->
+                        <div class="left-container">
+                            <h1>Book Are Uniquely Portable Magic</h1>
+                            <p class="subheading" >The place where you can buy your favorite book!</p>
+                            <a href="#" class="shop-now-cta">SHOP NOW</a>
+                            </div>
+                            <!--Right Content-->
+                            <div class="right-container">
+                            <div class="search-bar-container">
+                                <input class="input-container" type="text" id="search-bar-input" placeholder="Search books, authors, categories...">
+                                <a href="" class="search-bar-cta" id="btn-search">Search</a>
+                            </div>
+                            <img class="hero-right-image" src="images/herobigimage.svg" alt="Picture of a group of people">
+                        </div>
+                    </div>
+                </section>
+
+
+                <!--Store Section-->
+                <section class="store-section" id="id-store-section">
+                    <h3 class="subhead">Our Best-Selling Books In the Store!</h3>
+                    <div class="container store-container">
+                        <div class="container-flexbox">
+                        <div class="carousel-books">
+                            <div class="box1">
+                                <div class="items-box">
+                                    <div class="ratings">
+                                        <img class="star-rating" src="images/star.svg" alt="Star image">
+                                        <p class="ratings-count">5.0</p>
+                                    </div>
+                                    <img class="image-book" src="images/topbook1.svg" alt="Image of a book">
+                                    <p class="text-tag-soldout" >Sold Out!</p>
+                                </div>
+                            </div>
+                            <img class="image-bestseller-tag" src="images/bestseller.png" alt="Best-seller tag">
+                        </div>
+                        <div class="carousel-books">
+                            <div class="box2">
+                                <div class="items-box">
+                                    <div class="ratings">
+                                        <img class="star-rating" src="images/star.svg" alt="Star image">
+                                        <p class="ratings-count">5.0</p>
+                                    </div>
+                                    <img class="image-book" src="images/topbook2.svg" alt="Image of a book">
+                                    <p class="text-tag-soldout" >Sold Out!</p>
+                                </div>
+                            </div>
+                            <img class="image-bestseller-tag" src="images/bestseller.png" alt="Best-seller tag">
+                        </div>
+                        <div class="carousel-books">
+                            <div class="box3">
+                                <div class="items-box">
+                                    <div class="ratings">
+                                        <img class="star-rating" src="images/star.svg" alt="Star image">
+                                        <p class="ratings-count">5.0</p>
+                                    </div>
+                                    <img class="image-book" src="images/topbook3.svg" alt="Image of a book">
+                                    <p class="text-tag-soldout" >Sold Out!</p>
+                                </div>
+                            </div>
+                            <img class="image-bestseller-tag" src="images/bestseller.png" alt="Best-seller tag">
+                        </div>
+                        <div class="carousel-books">
+                            <div class="box4">
+                                <div class="items-box">
+                                    <div class="ratings">
+                                        <img class="star-rating" src="images/star.svg" alt="Star image">
+                                        <p class="ratings-count">5.0</p>
+                                    </div>
+                                    <img class="image-book" src="images/topbook4.svg" alt="Image of a book">
+                                    <p class="text-tag-soldout" >Sold Out!</p>
+                                </div>
+                            </div>
+                            <img class="image-bestseller-tag" src="images/bestseller.png" alt="Best-seller tag">
+                        </div>
+                    </div>
+                    </div>
+                    <button class="store-button" id="btn-store">See shop</button>
+                </section>
+
+
+            <!--Author Section-->
+            <section class="author-section" id="id-author-section">
+                <h3 class="subhead subhead-author">Get to Know Your Favorite Author</h3>
+                <div class="container">
+                    <!--Left-->
+                        <div class="left-col-author">
+                            <h2 class="author-content">Mark Myers</h2>
+                                <p class="p-author-content">Author of the "A Smarter Way to Die" a series of computer programming books</p>
+                                <h5 class="h5-author-content">About the author</h5>
+                                <p class="author-content">My books have taught coding to grandmothers, cab drivers, musicians, and 
+                                    50,000 other self-learners. Any one can learn to code if they start 
+                                    with the right books then die after.</p>
+                                <h5 class="h5-author-content" >Follow me:</h5>
+                                    <div class="author-social-media">
+                                        <img class="author-image" src="images/fbicon.svg" alt="Facebook link">
+                                        <img class="author-image" src="images/vibericon.svg" alt="Viber link">
+                                        <img class="author-image" src="images/igicon.svg" alt="Instagram link">
+                                        <img class="author-image" src="images/tweticon.svg" alt="Tweeter link">
+                                        <img class="author-image" src="images/liicon.svg" alt="LinkedIn link">
+                                        <img class="author-image" src="images/tikicon.svg" alt="Tiktok link">
+                                        <img class="author-image" src="images/scicon.svg" alt="Snapchat link">
+                                        <img class="author-image" src="images/wsicon.svg" alt="Website link">
+                                    </div>
+                            </div>
+                            <!--Right Content-->
+                            <div class="right-col-author">
+                                <img class="lca-image" src="images/authorimage.png" alt="Author image">
+                        </div>
+                        </div>
+            </section>
+
+            <!--Reviews Section-->
+            <section class="review-section" id="id-review-section">
+                <h3 class="subhead">What our customers says</h3>
+                <div class="container review-container">
+                    <div class="container-flexbox">
+                    <div class="card-container">
+                        <div class="card">
+                            <img class="review-user-profile" src="/images/morty.png" alt="User profile">
+                            <h4>Morty Smith</h4>
+                            <p class="review-quote">“I got a book from Libreria and I’m very satisfied. They are high-quality and worth the money. The store also offered free shipping at that price so that’s a plus!”</p>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <img class="review-user-profile" src="images/saitama.jpg" alt="User profile">
+                            <h4>Caped Baldy</h4>
+                            <p class="review-quote">“I got a book from Libreria and I’m very satisfied. They are high-quality and worth the money. The store also offered free shipping at that price so that’s a plus!”</p>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <img class="review-user-profile" src="images/rick.png" alt="User profile">
+                            <h4>Rick Sanchez</h4>
+                            <p class="review-quote">“I got a book from Libreria and I’m very satisfied. They are high-quality and worth the money. The store also offered free shipping at that price so that’s a plus!”</p>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="card">
+                            <img class="review-user-profile" src="images/robertparr.jpg" alt="User profile">
+                            <h4>Robert Parr</h4>
+                            <p class="review-quote">“I got a book from Libreria and I’m very satisfied. They are high-quality and worth the money. The store also offered free shipping at that price so that’s a plus!”</p>
+                        </div>
+                    </div>
+                </div>
+                </div> 
+            </div>
+            <button class="review-button" id="btn-review">Read more >></button>
+        </section>
+
+
+        <!--Page Footer Section-->
+            <section class="page-footer" id="id-page-footer">
+                <h3 class="pf-subhead">Your one-stop shop for the books you need.</h3>
+                <div class="container">
+                    <div class="social-media-link">
+                        <img class="sml-images" src="images/fb_icon.svg" alt="Facebook link icon">
+                        <img class="sml-images" src="images/viber_icon.svg" alt="Viber link icon">
+                        <img class="sml-images" src="images/igicon.svg" alt="Instagram link icon">
+                        <img class="sml-images" src="images/tweticon.svg" alt="Tweeter link icon">
+                        <div class="pf-links">
+                            <a class="pf-links-txt" href="#">Privacy Policy</a>
+                            <p class="pf-links-txt">|</p>
+                            <a class="pf-links-txt" href="#">Terms of use</a>
+                        </div>
+                        <hr>
+                        <p class="credits">© 2022 Libreria.com <br> All rights reserved</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--Pop up Login Form-->
+            <div class="bg-login-form">
+                <div class="login-form">
+                    <img class="close-button" src="images/exit.svg" alt="Close Button">
+                    <h2>Libreria</h2>
+                    <form action="">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <a class="login-button" id="btn-login" href="#">Login</a>
+                    </form>
+                </div>                
+            </div>
+
+
+            <!--JavaScript Files-->
+            <script src="js_files/script.js"></script>
+            </body>
+    </html>

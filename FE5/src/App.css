@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+.todo {
+  margin: 1em;
+}
+
+.todo input {
+  border: 2px solid red;
+  width: 400px;
+  border-radius: 1em;
+  font-family: tahoma;
+  font-size: 14px;
+  padding: 0.5em;
+}
+
+.todos li {
+  list-style: none;
+  border: 2px solid black;
+  border-radius: 0.5em;
+  margin: 1em;
+  width: 500px;
+  padding: 0.3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnAdd {
+  background-color: antiquewhite;
+  border-radius: 0.5em;
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.btnRemove {
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 0.5em;
+}
+
+button {
+  font-family: Lucida Sans;
+}
